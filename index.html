@@ -8,21 +8,32 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <header>
-        <img src="#" alt="company logo">
-        <nav>
+    <header id="header">
+        <img id="header-img" src="https://www.geomotion.com.au/wp-content/uploads/2021/07/Geomotion-Logo-Reversed.png" alt="company logo">
+        <nav id="nav-bar">
             <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">How It Works</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><a class="nav-link"href="#header">Features</a></li>
+                <li><a class="nav-link" href="#form">How It Works</a></li>
+                <li><a class="nav-link" href="#footer">Pricing</a></li>
             </ul>
         </nav>
     </header>
     <h1>Homecrafted, home-made masterpieces</h1>
-    <form action="https://www.freecodecamp.com/email-submit" method="get">
-        <input type="email" placeholder="Enter your email address">
-        <input type="submit" value="Get Started">
+    <form action="https://www.freecodecamp.com/email-submit" method="get" id="form">
+        <input id='email' name="email" type="email" placeholder="Enter your email address">
+        <input id="submit" type="submit" value="Get Started">
     </form>
+
+    <section id="video-section">
+        <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+    </section>
+
+    <footer id="footer">
+        <small>epic landing page...</small>
+
+    </footer>
+
+
     
 </body>
 </html>
